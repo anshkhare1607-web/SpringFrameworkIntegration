@@ -13,7 +13,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/quantity")
+@RequestMapping("/quantity")
 public class QuantityController {
 
     private final QuantityService service;
