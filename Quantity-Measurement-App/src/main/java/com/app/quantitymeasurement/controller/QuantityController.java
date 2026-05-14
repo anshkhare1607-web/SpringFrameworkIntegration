@@ -73,4 +73,9 @@ public class QuantityController {
         }
         return ResponseEntity.ok(result);
     }
+
+    @GetMapping("hello")
+    public String getHello(){
+        return "Hello";
+    }
 }
